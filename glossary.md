@@ -8,7 +8,7 @@
 **(test) coverage**
 * The degree to which specified coverage items are exercised by a test suite, expressed as a percentage.
 
-**debugging**~
+**debugging**
 * The process of finding, analyzing and removing the causes of failures in a component or system.
 
 **defect**
