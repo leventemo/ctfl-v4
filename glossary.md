@@ -221,7 +221,7 @@
 
 **black-box test technique**
 * A *test technique* based on an analysis of the specification of a component or system.
-* synonyms: black-box test design technique, specification-based test technique
+* synonyms: black-box test design technique, specification-based test technique
 
 **boundary value analysis**
 * A *black-box test technique* in which test cases are designed based on boundary values.
