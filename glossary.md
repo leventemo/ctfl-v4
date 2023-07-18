@@ -231,7 +231,7 @@
     - synonyms: equivalence class
 
 **branch coverage**
-* The coverage of branches in a*control flow grap*.
+* The coverage of branches in a*control flow graph*.
   + ?
   + **control flow**: The sequence in which operations are performed by a business process, component or system.
 
@@ -386,3 +386,9 @@
 
 **test automation**
 * The use of software to perform or support test activities.
+
+## My additions
+
+the Pareto principle (1.3)
+
+extreme programming (1.5.2)
