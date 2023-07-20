@@ -392,3 +392,51 @@
 the Pareto principle (1.3)
 
 extreme programming (1.5.2)
+
+
+sequential development models (2.1)
+
+waterfall model (2.1)
+
+V-model (2.1)
+
+
+iterative development models (2.1)
+
+spiral model (2.1)
+
+prototyping (2.1)
+
+
+incremental development models (2.1)
+
+Unified Process (2.1)
+
+acceptance test-driven development (ATDD)  (2.1)
+
+behavior-driven development (BDD)  (2.1)
+
+domain-driven design (DDD)  (2.1)
+
+extreme programming (XP)  (2.1)
+
+feature-driven development (FDD)  (2.1)
+
+Kanban  (2.1)
+
+Lean IT  (2.1)
+
+Scrum  (2.1)
+
+test-driven development (TDD)  (2.1)
+
+integration strategy approaches (2.2.1)
+* like bottom-up
+* top-down
+* big-bang
+
+main forms of acceptance testing (2.2.1)
+* user acceptance testing (UAT),
+* operational acceptance testing,
+* contractual and regulatory acceptance testing,
+* alpha testing and beta testing
