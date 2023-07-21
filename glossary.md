@@ -440,3 +440,7 @@ main forms of acceptance testing (2.2.1)
 * operational acceptance testing,
 * contractual and regulatory acceptance testing,
 * alpha testing and beta testing
+
+the Definition of Ready (3.1 & 5.1.3)
+
+audit trail (3.2.4)
