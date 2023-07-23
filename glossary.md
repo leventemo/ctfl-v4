@@ -444,3 +444,9 @@ main forms of acceptance testing (2.2.1)
 the Definition of Ready (3.1 & 5.1.3)
 
 audit trail (3.2.4)
+
+continuous partitions vs discrete partitions (4.2.1)
+
+ordered partitions vs unordered (4.2.1)
+
+finite partitions vs infinite (4.2.1)
