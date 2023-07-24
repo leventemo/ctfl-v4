@@ -450,3 +450,7 @@ continuous partitions vs discrete partitions (4.2.1)
 ordered partitions vs unordered (4.2.1)
 
 finite partitions vs infinite (4.2.1)
+
+smoke test (5.1.3)
+
+scope creep (5.2.2)
