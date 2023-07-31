@@ -389,26 +389,45 @@
 
 ## My additions
 
-the Pareto principle (1.3)
+**the Pareto principle** (1.3)
+* The Pareto principle states that for many outcomes, roughly 80% of consequences come from 20% of causes (the "vital few"). Other names for this principle are the 80/20 rule, the law of the vital few, or the principle of factor sparsity.
+* In computer science the Pareto principle can be applied to optimization efforts. Eg. Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated. Lowell Arthur expressed that "20% of the code has 80% of the errors. Find them, fix them!" It was also discovered that, in general, 80% of a piece of software can be written in 20% of the total allocated time. Conversely, the hardest 20% of the code takes 80% of the time. This factor is usually a part of COCOMO estimating for software coding.
+* see [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
-extreme programming (1.5.2)
+**extreme programming** (1.5.2)
+* intends to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+* other elements of extreme programming include:
+  + programming in pairs or doing extensive code review,
+  + unit testing of all code,
+  + a flat management structure,
+  + code simplicity and clarity,
+  + expecting changes in the customer's requirements as time passes and the problem is better understood
+  + frequent communication with the customer and among programmers.
+* takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. Eg. code reviews are considered a beneficial practice; taken to the extreme, code can be reviewed continuously (ie. the practice of pair programming).
+* see [Wikipedia](https://en.wikipedia.org/wiki/Extreme_programming)
 
+**waterfall model** (2.1)
+* A sequential model that divides software development into pre-defined phases. Each phase must be completed before the next phase can begin with no overlap between the phases. Each phase is designed for performing specific activity during the SDLC phase. It was introduced in 1970 by Winston Royce.
 
-sequential development models (2.1)
+**V-model** (2.1)
+* A sequential software development lifecycle model describing a one-for-one relationship between major phases of software development from business requirements specification to delivery, **and** corresponding test levels from acceptance testing to component testing.
+* see [guru99](https://www.guru99.com/v-model-software-testing.html)
 
-waterfall model (2.1)
-
-V-model (2.1)
-
-
-iterative development models (2.1)
-
-spiral model (2.1)
+**spiral model** (2.1)
+* a risk-driven software development process model. It is a combination of waterfall model and iterative model. Spiral Model helps to adopt software development elements of multiple process models for the software project based on unique risk patterns ensuring efficient development process.
+* each phase of spiral model in software engineering begins with a design goal and ends with the client reviewing the progress.
+* was first mentioned by Barry Boehm in his 1986 paper
+* development process starts with a small set of requirement and goes through each development phase for those set of requirements. The software engineering team adds functionality for the additional requirement in every-increasing spirals until the application is ready for the production phase.
+* see [guru99](https://www.guru99.com/what-is-spiral-model-when-to-use-advantages-disadvantages.html)
 
 prototyping (2.1)
+* a software development model in which prototype is built, tested, and reworked until an acceptable prototype is achieved. It also creates base to produce the final system or software. It works best in scenarios where the project’s requirements are not known in detail. It is an iterative, trial and error method which takes place between developer and client.
+* see[guru99](https://www.guru99.com/software-engineering-prototyping-model.html)
 
-
-incremental development models (2.1)
+**incremental development models** (2.1)
+* Development is done in steps from analysis design, implementation, testing/verification, maintenance.
+* Each iteration passes through the requirements, design, coding and testing phases. And each subsequent release of the system adds function to the previous release until all designed functionality has been implemented.
+* see [guru99](https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)
 
 Unified Process (2.1)
 
