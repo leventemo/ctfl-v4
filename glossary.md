@@ -216,8 +216,9 @@
 
 **acceptance test-driven development**
 * A collaboration-based test-first approach that defines acceptance tests in the stakeholders' domain language.
-* also see: **specification by example**
-  + A development technique in which the specification is defined by examples.
+* also see: **specification by example (SBE)**
+  + A development technique in which the specification is defined by examples
+  + see [Wkipedia](https://en.wikipedia.org/wiki/Specification_by_example)
 
 **black-box test technique**
 * A *test technique* based on an analysis of the specification of a component or system.
@@ -394,18 +395,6 @@
 * In computer science the Pareto principle can be applied to optimization efforts. Eg. Microsoft noted that by fixing the top 20% of the most-reported bugs, 80% of the related errors and crashes in a given system would be eliminated. Lowell Arthur expressed that "20% of the code has 80% of the errors. Find them, fix them!" It was also discovered that, in general, 80% of a piece of software can be written in 20% of the total allocated time. Conversely, the hardest 20% of the code takes 80% of the time. This factor is usually a part of COCOMO estimating for software coding.
 * see [Wikipedia](https://en.wikipedia.org/wiki/Pareto_principle)
 
-**extreme programming** (1.5.2)
-* intends to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
-* other elements of extreme programming include:
-  + programming in pairs or doing extensive code review,
-  + unit testing of all code,
-  + a flat management structure,
-  + code simplicity and clarity,
-  + expecting changes in the customer's requirements as time passes and the problem is better understood
-  + frequent communication with the customer and among programmers.
-* takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. Eg. code reviews are considered a beneficial practice; taken to the extreme, code can be reviewed continuously (ie. the practice of pair programming).
-* see [Wikipedia](https://en.wikipedia.org/wiki/Extreme_programming)
-
 **waterfall model** (2.1)
 * A sequential model that divides software development into pre-defined phases. Each phase must be completed before the next phase can begin with no overlap between the phases. Each phase is designed for performing specific activity during the SDLC phase. It was introduced in 1970 by Winston Royce.
 
@@ -420,7 +409,7 @@
 * development process starts with a small set of requirement and goes through each development phase for those set of requirements. The software engineering team adds functionality for the additional requirement in every-increasing spirals until the application is ready for the production phase.
 * see [guru99](https://www.guru99.com/what-is-spiral-model-when-to-use-advantages-disadvantages.html)
 
-prototyping (2.1)
+**prototyping** (2.1)
 * a software development model in which prototype is built, tested, and reworked until an acceptable prototype is achieved. It also creates base to produce the final system or software. It works best in scenarios where the project’s requirements are not known in detail. It is an iterative, trial and error method which takes place between developer and client.
 * see[guru99](https://www.guru99.com/software-engineering-prototyping-model.html)
 
@@ -429,15 +418,51 @@ prototyping (2.1)
 * Each iteration passes through the requirements, design, coding and testing phases. And each subsequent release of the system adds function to the previous release until all designed functionality has been implemented.
 * see [guru99](https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)
 
-Unified Process (2.1)
+**Unified Process** (2.1)
+* a software development framework used for object-oriented modeling. The framework is also known as Rational Unified Process (RUP) and the Open Unified Process (Open UP)
+* Some of the key features of this process include:
+  + it defines the order of phases
+  + it is component-based, meaning a software system is built as a set of software components. There must be well-defined interfaces between the components for smooth communication
+  + it follows an iterative, incremental, architecture-centric, and use-case driven approach
+* see [educative.io](https://www.educative.io/answers/what-is-a-unified-process-model)
 
-acceptance test-driven development (ATDD)  (2.1)
+**acceptance test-driven development** (ATDD)  (2.1)
+* ATDD is closely related to test-driven development (TDD)
+* differs by the emphasis on developer-tester-business customer collaboration
+* ATDD encompasses acceptance testing, but highlights writing acceptance tests before developers begin coding
+* Acceptance tests are from the user's point of view – the external view of the system
+  + they examine externally visible effects, such as specifying the correct output of a system given a particular input
+  + they can verify how the state of something changes, eg. an order that goes from "paid" to "shipped"
+  + they also can check the interactions with interfaces of other systems, eg. shared databases or web services
+  + in general, they are implementation independent, although automation of them may not be
+* see [Wikipedia](https://en.wikipedia.org/wiki/Acceptance_test-driven_development)
 
-behavior-driven development (BDD)  (2.1)
+**behavior-driven development** (BDD)  (2.1)
+* encourages teams to use conversation & concrete examples to formalize a shared understanding of how the application should behave
+* emerged from test-driven development (TDD)
+* combines the general techniques & principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development
+* although principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialized software tools to support the development process
+  + although these tools are often developed specifically for use in BDD projects, they can be seen as specialized forms of the tooling that supports test-driven development
+  + the tools serve to add automation to the ubiquitous language that is a central theme of BDD
+* largely facilitated through the use of a simple domain-specific language (DSL) using natural-language constructs (eg. English-like sentences) that can express the behaviour & the expected outcomes
+* test scripts have long been a popular application of DSLs with varying degrees of sophistication
+* considered an effective technical practice especially when the "problem space" of the business problem to solve is complex
+* see [Wikipedia](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
 domain-driven design (DDD)  (2.1)
+* see [Wikipedia](https://en.wikipedia.org/wiki/Domain-driven_design)
 
-extreme programming (XP)  (2.1)
+**extreme programming** (XP)  (2.1)
+* intends to improve software quality and responsiveness to changing customer requirements. As a type of agile software development, it advocates frequent releases in short development cycles, intended to improve productivity and introduce checkpoints at which new customer requirements can be adopted.
+* other elements of extreme programming include:
+  + programming in pairs or doing extensive code review,
+  + unit testing of all code,
+  + a flat management structure,
+  + code simplicity and clarity,
+  + expecting changes in the customer's requirements as time passes and the problem is better understood
+  + frequent communication with the customer and among programmers.
+* takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. Eg. code reviews are considered a beneficial practice; taken to the extreme, code can be reviewed continuously (ie. the practice of pair programming).
+* see [Wikipedia](https://en.wikipedia.org/wiki/Extreme_programming)
 
 feature-driven development (FDD)  (2.1)
 
@@ -447,7 +472,10 @@ Lean IT  (2.1)
 
 Scrum  (2.1)
 
-test-driven development (TDD)  (2.1)
+**test-driven development** (TDD)  (2.1)
+* relies on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases – as opposed to software being developed first and test cases created later
+* related to the test-first programming concepts of extreme programming, begun in 1999, but more recently has created more general interest in its own right
+* see [Wikipedia](https://en.wikipedia.org/wiki/Test-driven_development)
 
 integration strategy approaches (2.2.1)
 * like bottom-up
