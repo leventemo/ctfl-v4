@@ -449,7 +449,17 @@
 * considered an effective technical practice especially when the "problem space" of the business problem to solve is complex
 * see [Wikipedia](https://en.wikipedia.org/wiki/Behavior-driven_development)
 
-domain-driven design (DDD)  (2.1)
+**domain-driven design** (DDD)  (2.1)
+* a major software design approach, focusing on modeling software to match a domain according to input from that domain's experts
+* the structure and language of software code (class names, class methods, class variables) should match the business domain
+  + eg. if software processes loan applications, it might have classes like "loan application", "customers", and methods such as "accept offer" and "withdraw"
+* domain-driven design is predicated on the following goals:
+  + placing the project's primary focus on the core domain and domain logic,
+  + basing complex designs on a model of the domain,
+  + initiating a creative collaboration between technical & domain experts to iteratively refine a conceptual model that addresses particular domain problems
+* critics of domain-driven design argue that developers must typically implement a great deal of isolation and encapsulation to maintain the model as a pure and helpful construct
+* while domain-driven design provides benefits such as maintainability, Microsoft recommends it only for complex domains where the model provides clear benefits in formulating a common understanding of the domain
+* the term was coined by Eric Evans in his book of the same title published in 2003
 * see [Wikipedia](https://en.wikipedia.org/wiki/Domain-driven_design)
 
 **extreme programming** (XP)  (2.1)
@@ -464,13 +474,102 @@ domain-driven design (DDD)  (2.1)
 * takes its name from the idea that the beneficial elements of traditional software engineering practices are taken to "extreme" levels. Eg. code reviews are considered a beneficial practice; taken to the extreme, code can be reviewed continuously (ie. the practice of pair programming).
 * see [Wikipedia](https://en.wikipedia.org/wiki/Extreme_programming)
 
-feature-driven development (FDD)  (2.1)
+**feature-driven development** (FDD)  (2.1)
+* an iterative & incremental software development process, a lightweight Agile method for developing software
+* blends a number of industry-recognized best practices into a cohesive whole
+* these practices are driven from a client-valued functionality (feature) perspective
+* its main purpose is to deliver tangible, working software repeatedly in a timely manner in accordance with the Principles behind the Agile Manifesto
 
 Kanban  (2.1)
+* Kanban is a popular framework used to implement agile and DevOps software development
+* requires real-time communication of capacity and full transparency of work
+  + work items are represented visually on a kanban board
+  + allowing team members to see the state of every piece of work at any time
+* in the late 1940s Toyota began optimizing its engineering processes based on the same model that supermarkets were using to stock their shelves. Supermarkets stock just enough product to meet consumer demand, a practice that optimizes the flow between the supermarket and the consumer.
+* when Toyota applied this same system to its factory floors, the goal was to better align their massive inventory levels with the actual consumption of materials. To communicate capacity levels in real-time on the factory floor (and to suppliers), workers would pass a card, or "kanban", between teams. When a bin of materials being used on the production line was emptied, a kanban was passed to the warehouse describing what material was needed, the exact amount of this material, and so on. The warehouse would have a new bin of this material waiting, which they would then send to the factory floor, and in turn send their own kanban to the supplier. The supplier would also have a bin of this particular material waiting, which it would ship to the warehouse. While the signaling technology of this process has evolved since the 1940s, this same "just in time" (or JIT) manufacturing process is still at the heart of it.
+* see [Atlassian](https://www.atlassian.com/agile/kanban)
+* see [Wikipedia](https://en.wikipedia.org/wiki/Kanban)
 
 Lean IT  (2.1)
+* see [Wikipedia](https://en.wikipedia.org/wiki/Lean_IT)
 
-Scrum  (2.1)
+**Scrum**  (2.1)
+* def.
+  + an agile project management framework that helps teams structure & manage their work through a set of values, principles, and practices
+  + encourages teams to learn through experiences, self-organize while working on a problem, and reflect on their wins and losses to continuously improve
+  + describes a set of meetings, tools, and roles that work in concert to help teams structure and manage their work.
+* it details the members of a scrum team and their accountabilities, “artifacts” that define the product and work to create the product, and scrum ceremonies that guide the scrum team through work
+* a scrum team is a small and nimble team dedicated to delivering committed product increments
+* three specific roles:
+  + product owner
+  + scrum master
+  + the development team including testers, designers, UX specialists, & ops engineers
+* product owner
+  + the champions for their product:
+    - focussed on understanding business, customer, and market requirements,
+    - then prioritizing the work to be done by the engineering team accordingly
+  + effective product owners:
+    - build and manage the product backlog
+    - closely partner with the business & the team to ensure everyone understands the work items in the product backlog
+    - give the team clear guidance on which features to deliver next
+    - decide when to ship the product with a predisposition towards more frequent delivery
+* scrum master
+  + the champions of scrum within their teams
+    - they coach teams, product owners, & the business on the scrum process
+    - look for ways to fine-tune their practice of it
+  + an effective scrum master:
+    - deeply understands the work being done by the team & can help the team optimize their transparency & delivery flow
+    - as the facilitator-in-chief: schedules the needed resources ( human & logistical) for sprint planning, stand-up, sprint review, & the sprint retrospective
+* scrum dev team
+  + the champions for sustainable development practices: get things done
+  + effective scrum teams are tight-knit, co-located, & usually five to seven members
+    - the famous ‘two pizza rule’ coined by Jeff Bezos: team should be small enough to share two pizzas
+  + members have differing skill sets, and cross-train each other so no one person becomes a bottleneck in the delivery of work
+  + scrum teams are self-organizing & approach their projects with a clear ‘we’ attitude
+  + all members of the team help one another to ensure a successful sprint completion
+  + the scrum team drives the plan for each sprint
+    - forecast how much work they can complete over the iteration using their historical velocity as a guide
+* scrum artifacts
+  + Product Backlog
+    - the primary list of work that needs to get done & maintained by the product owner or product manager
+    - this is a dynamic list of features, requirements, enhancements, & fixes that acts as the input for the sprint backlog
+    - it is, essentially, the team’s “To Do” list
+    - is constantly revisited, re-prioritized and maintained by the Product Owner because, as we learn more or as the market changes, items may no longer be relevant or problems may get solved in other ways
+  + Sprint Backlog
+    - the list of items, user stories, or bug fixes, selected by the development team for implementation in the current sprint cycle
+    - before each sprint, in the sprint planning meeting the team chooses which items it will work on for the sprint from the product backlog
+    - may be flexible & can evolve during a sprint
+    - however, the fundamental sprint goal – what the team wants to achieve from the current sprint – cannot be compromised
+  + Increment / Sprint Goal
+    - the usable end-product from a sprint
+    - often referred to as the team’s definition of “Done”, a milestone, the sprint goal, or even a full version or a shipped epic – depending on how your teams defines “Done” & how you define your sprint goals
+    - eg. some teams choose to release something to their customers at the end of every sprint. So their definition of ‘done’ would be ‘shipped’. However, this may not be realistic of other types of teams
+* scrum ceremonies / events
+  + Organize the backlog: Sometimes known as backlog grooming, this event is the responsibility of the product owner. The product owner’s main jobs are to drive the product towards its product vision and have a constant pulse on the market and the customer. Therefore, he/she maintains this list using feedback from users and the development team to help prioritize and keep the list clean and ready to be worked on at any given time. You can read more about maintaining a healthy backlog here.
+
+  + Sprint planning:
+    - the work to be performed (scope) during the current sprint is planned during this meeting by the entire development team. This meeting is led by the scrum master and is where the team decides on the sprint goal. Specific user stories are then added to the sprint from the product backlog.  These stories always align with the goal and are also agreed upon by the scrum team to be feasible to implement during the sprint.
+    - at the end of the planning meeting, every scrum member needs to be clear on what can be delivered in the sprint and how the increment can be delivered.
+
+  + Sprint
+    - A sprint is the actual time period when the scrum team works together to finish an increment. Two weeks is a pretty typical length for a sprint, though some teams find a week to be easier to scope or a month to be easier to deliver a valuable increment. Dave West, from Scrum.org advises that the more complex the work and the more unknowns, the shorter the sprint should be. But it’s really up to your team, and you shouldn’t be afraid to change it if it’s not working! During this period, the scope can be re-negotiated between the product owner and the development team if necessary. This forms the crux of the empirical nature of scrum.
+    - All the events — from planning to retrospective — happen during the sprint. Once a certain time interval for a sprint is established, it has to remain consistent throughout the development period. This helps the team learn from past experiences and apply that insight to future sprints.
+
+  + Daily scrum or stand up:
+    - This is a daily super-short meeting that happens at the same time (usually mornings) and a place to keep it simple. Many teams try to complete the meeting in 15 minutes, but that’s just a guideline. This meeting is also called a ‘daily stand-up’ emphasizing that it needs to be a quick one. The goal of the daily scrum is for everyone on the team to be on the same page, aligned with the sprint goal, and to get a plan out for the next 24 hours.
+    - The stand up is the time to voice any concerns you have with meeting the sprint goal or any blockers.
+    - A common way to conduct a stand up is for every team member to answer three questions in the context of achieving the sprint goal:
+    •      What did I do yesterday?
+    •      What do I plan to do today?
+    •      Are there any obstacles?
+    - However, we’ve seen the meeting quickly turn into people reading from their calendars from yesterday and for the next day. The theory behind the stand up is that it keeps distracting chatter to a daily meeting, so the team can focus on the work for the rest of the day.  So if it turns into a daily calendar read-out, don’t be afraid to change it up and get creative.
+
+  + Sprint review:
+    - At the end of the sprint, the team gets together for an informal session to view a demo of, or inspect, the increment. The development team showcases the backlog items that are now ‘Done’ to stakeholders and teammates for feedback. The product owner can decide whether or not to release the increment, although in most cases the increment is released.
+    - This review meeting is also when the product owner reworks the product backlog based on the current sprint, which can feed into the next sprint planning session. For a one-month sprint, consider time-boxing your sprint review to a maximum of four hours.
+  + Sprint retrospective:
+    - The retrospective is where the team comes together to document and discuss what worked and what didn’t work in a sprint, a project, people or relationships, tools, or even for certain ceremonies. The idea is to create a place where the team can focus on what went well and what needs to be improved for the next time, and less about what went wrong.
+* see [Atlassian](https://www.atlassian.com/agile/scrum)
 
 **test-driven development** (TDD)  (2.1)
 * relies on software requirements being converted to test cases before software is fully developed, and tracking all software development by repeatedly testing the software against all test cases – as opposed to software being developed first and test cases created later
