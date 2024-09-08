@@ -87,7 +87,7 @@
   + Documentation describing the *test objectives* to be achieved and the means and the schedule for achieving them, organized to coordinate testing activities.
 
 **test procedure**
-* A sequence of test cases in execution order, and any associated actions that may be required to set up the initial preconditions @ any wrap up activities post execution.
+* A sequence of test cases in execution order, and any associated actions that may be required to set up the initial preconditions & any wrap up activities post execution.
 
 **test result**
 * The consequence/outcome of the execution of a test.
